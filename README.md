@@ -1,4 +1,4 @@
-# wp-psr-4-autoloader
+# WP PSR-4 Autoloader
 ### How to use?
 ```php
 add_action( 'init', function() {
