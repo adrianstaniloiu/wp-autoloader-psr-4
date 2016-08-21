@@ -1,5 +1,5 @@
 # wp-psr-4-autoloader
-# How to use?
+### How to use?
 ```php
 add_action( 'some_action', function() {
     spl_autoload_register( function( $class ) {
