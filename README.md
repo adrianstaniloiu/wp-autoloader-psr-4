@@ -3,7 +3,7 @@
 ```php
 add_action( 'some_action', function() {
     spl_autoload_register( function( $class ) {
-        autoload( $class, 'MyNamespace\\', get_template_directory() );
+        wp_autoloader_psr4( $class, 'MyNamespace\\', get_template_directory() );
     } );
 } );
 ```
